@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Компоненты</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/atom-one-dark.min.css" />
+  </head>
+
+  <body>
+    <div class="components">
+      <div class="container">
+        <div class="components__item cart">
+          <article class="product">
+            <a href="#" class="product__image">
+              <div class="product__switch image-switch">
+                <div class="image-switch__item">
+                  <div class="image-switch__img">
+                    <img
+                      src="../img/ovs.jpg"
+                      alt="Очиститель вороха самопередвижной"
+                    />
+                  </div>
+                </div>
+                <div class="image-switch__item">
+                  <div class="image-switch__img">
+                    <img
+                      src="../img/ovs1.jpg"
+                      alt="Очиститель вороха самопередвижной"
+                    />
+                  </div>
+                </div>
+                <div class="image-switch__item">
+                  <div class="image-switch__img">
+                    <img
+                      src="../img/ovs2.jpg"
+                      alt="Очиститель вороха самопередвижной"
+                    />
+                  </div>
+                </div>
+              </div>
+              <ul
+                class="product__image-pagination image-pagination"
+                aria-hidden="true"
+              ></ul>
+            </a>
+            <h3 class="product-title">
+              <a href="#">Очиститель вороха самопередвижной ОВС-25</a>
+            </h3>
+            <div class="product__props">
+              <span class="product__rating">
+                <svg
+                  id="Слой_1"
+                  data-name="Слой 1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 119.37 113.53"
+                >
+                  <defs></defs>
+                  <title>rating-icon</title>
+                  <polygon
+                    class="cls-1"
+                    points="59.69 0 78.13 37.37 119.37 43.37 89.53 72.45 96.58 113.53 59.69 94.14 22.8 113.53 29.84 72.45 0 43.37 41.24 37.37 59.69 0"
+                  />
+                </svg>
+                4.8
+              </span>
+              <span class="product__testimonials">133 отзыва</span>
+            </div>
+            <div class="product__info">
+              <span class="product__vendor-code">Артикул: 718503</span>
+              <span class="product__available">В наличии 88 штук</span>
+            </div>
+            <div class="product__price product-price">
+              <span class="product-price__current">230 000 р</span>
+              <span class="product-price__old">233 000 р</span>
+            </div>
+            <div class="product__btn">Добавить в корзину</div>
+          </article>
+          <button class="code-view-btn">Показать код</button>
+          <div class="code-wrapper__wrapper">
+            <div class="plug"></div>
+            <div class="code-wrapper">
+              <pre class="pre">
+                <code class="html">
+                  &lt;!-- html --&gt
+  
+                  &lt;article class="product"&gt;
+                    &lt;a href="#" class="product__image"&gt;
+                      &lt;div class="product__switch image-switch"&gt;
+                        &lt;div class="image-switch__item"&gt;
+                          &lt;div class="image-switch__img"&gt;
+                            &lt;img
+                              src="../img/ovs.jpg"
+                              alt="Очиститель вороха самопередвижной"/&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="image-switch__item"&gt;
+                          &lt;div class="image-switch__img"&gt;
+                            &lt;img
+                              src="../img/ovs1.jpg"
+                              alt="Очиститель вороха самопередвижной"
+                            /&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="image-switch__item"&gt;
+                          &lt;div class="image-switch__img"&gt;
+                            &lt;img
+                              src="../img/ovs2.jpg"
+                              alt="Очиститель вороха самопередвижной"
+                            /&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                      &lt;ul
+                        class="product__image-pagination image-pagination"
+                        aria-hidden="true"
+                      >&lt;/ul&gt;
+                    &lt;/a&gt;
+                    &lt;h3 class="product-title"&gt;
+                      &lt;a href="#"&gt;Очиститель вороха самопередвижной ОВС-25&lt;/a&gt;
+                    &lt;/h3&gt;
+                    &lt;div class="product__props"&gt;
+                      &lt;span class="product__rating"&gt;
+                        &lt;svg
+                          id="Слой_1"
+                          data-name="Слой 1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 119.37 113.53"
+                        &gt;
+                          &lt;defs&gt;&lt;/defs&gt;
+                          &lt;title&gt;rating-icon&lt;/title&gt;
+                          &lt;polygon
+                            class="cls-1"
+                            points="59.69 0 78.13 37.37 119.37 43.37 89.53 72.45 96.58 113.53 
+                            59.69 94.14 22.8 113.53 29.84 72.45 0 43.37 41.24 37.37 59.69 0"
+                          /&gt;
+                        &lt;/svg&gt;
+                        4.8
+                      &lt;/span&gt;
+                      &lt;span class="product__testimonials"&gt;133 отзыва&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class="product__info"&gt;
+                      &lt;span class="product__vendor-code"&gt;Артикул: 718503&lt;/span&gt;
+                      &lt;span class="product__available"&gt;В наличии 88 штук&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class="product__price product-price"&gt;
+                      &lt;span class="product-price__current"&gt;230 000 р&lt;/span&gt;
+                      &lt;span class="product-price__old"&gt;233 000 р&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class="product__btn">Добавить в корзину&lt;/div&gt;
+                  &lt;/article&gt;
+      </code>
+                <code class="scss">
+  ----------------------//scss--------------------
+  
+                  $first-color: #689192;
+                  $second-color: #cf748f;
+                  $third-color: #771672;
+  
+                  .components {
+                    a {
+                      text-decoration: none;
+                      color: inherit;
+                    }
+                    position: relative;
+                    .logo {
+                      position: absolute;
+                    }
+                    &__item {
+                      border: 1px solid #00fdb1;
+                    }
+                    .cart{
+                      padding: 30px 0;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                    }
+                    .product {
+                      width: 285px; /*для примера*/
+                      border: 1px solid $third-color;
+                      border-radius: 4px;
+                      background: #fff;
+                      padding: 20px;
+                      padding-top: 9px;
+                      color: $second-color;
+                      font-size: 14px;
+                      &__image {
+                        position: relative;
+                        display: block;
+                        height: 162px;
+                        overflow: hidden;
+                      }
+                      .image-switch {
+                        position: absolute;
+                        left: 0;
+                        height: 0;
+                        z-index: 10;
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        &__item {
+                          flex-grow: 1;
+                          cursor: pointer;
+                          &:first-child .image-switch__img {
+                            opacity: 1;
+                            z-index: -1;
+                          }
+                          &:hover .image-switch__img {
+                            opacity: 1;
+                            z-index: -1;
+                          }
+                        }
+                        &__img {
+                          position: absolute;
+                          left: 50%;
+                          top: 0;
+                          z-index: 2;
+                          width: 100%;
+                          height: 100%;
+                          transform: translateX(-50%);
+                          pointer-events: none;
+                          background: #fff;
+                          display: flex;
+                          align-items: center;
+                          justify-content: center;
+                          opacity: 0;
+                          img {
+                            display: block;
+                            max-width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                          }
+                        }
+                      }
+                      &__image-pagination {
+                        position: absolute;
+                        z-index: 30;
+                        left: 0;
+                        bottom: 10px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        .image-pagination__item {
+                          display: block;
+                          width: 8px;
+                          height: 8px;
+                          border-radius: 50%;
+                          background: $first-color;
+                          margin: 0 3px;
+                          &--active{
+                            background: $third-color;
+                          }
+                        }
+                      }
+                      &-title{
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-bottom: 10px;
+                      }
+                      &__props{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 12px;
+                      }
+                      &__rating{
+                        display: inline-flex;
+                        align-items: center;
+                        color: $third-color;
+                        fill: $third-color;
+                        font-weight: 600;
+                        margin-right: 10px;
+                        svg{
+                          width: 18px;
+                          margin-right: 5px;
+                        }
+                      }
+                      &__testimonials{
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: $second-color;
+                      }
+                      &__info{
+                        font-size: 12px;
+                        line-height: 16px;
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 14px;
+                      }
+                      &__vendor-code{
+                        margin-bottom: 4px;
+                      }
+                      &-price{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 19px;
+                        &__current{
+                          line-height: 28px;
+                          font-weight: bold;
+                          font-size: 24px;
+                          color: $first-color;
+                          margin-right: 14px;
+                        }
+                        &__old{
+                          line-height: 28px;
+                          font-size: 12px;
+                          color: $second-color;
+                          text-decoration: line-through;
+                        }
+                      }
+                      &__btn{
+                        border: none;
+                        color: #fff;
+                        font-size: 14px;
+                        line-height: 20px;
+                        padding: 12px 0;
+                        text-align: center;
+                        background: $third-color;
+                        cursor: pointer;
+                        width: 100%;
+                        border-radius: 4px;
+                        transition: background-color 0.2s ease-in-out;
+                        &:hover{
+                          background: rgb(240, 7, 7);
+                        }
+                      }
+                    }
+                  }
+                            </code>
+                            <code class="js">
+  //js----------------------------------------
+  
+            const products = document.querySelectorAll(".product");
+  
+            if (products) {
+              products.forEach((elem) => {
+                let currentProduct = elem;
+                const imageSwitchItems = currentProduct.querySelectorAll(
+                  ".image-switch__item"
+                );
+                const imagePagination = currentProduct.querySelector(".image-pagination");
+  
+                if (imageSwitchItems.length > 1) {
+                  imageSwitchItems.forEach((elem, index) => {
+                    elem.setAttribute("data-index", index);
+                    imagePagination.innerHTML += `<li class="image-pagination__item ${
+                      index == 0 ? "image-pagination__item--active" : ""
+                    }" data-index="${index}"></li>`;
+  
+                    elem.addEventListener("mouseenter", (e) => {
+                      currentProduct
+                        .querySelectorAll(".image-pagination__item")
+                        .forEach((elem) => {
+                          elem.classList.remove("image-pagination__item--active");
+                        });
+                      currentProduct
+                        .querySelector(
+                          `.image-pagination__item[data-index="${e.currentTarget.dataset.index}"]`
+                        )
+                        .classList.add("image-pagination__item--active");
+                    });
+  
+                    elem.addEventListener("mouseleave", (e) => {
+                      currentProduct
+                        .querySelectorAll(".image-pagination__item")
+                        .forEach((elem) => {
+                          elem.classList.remove("image-pagination__item--active");
+                        });
+                      currentProduct
+                        .querySelector(`.image-pagination__item[data-index="0"]`)
+                        .classList.add("image-pagination__item--active");
+                    });
+                  });
+                }
+              });
+            }
+                            </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+    <script src="js/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
