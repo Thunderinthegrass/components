@@ -9,41 +9,41 @@
   </head>
 
   <body>
+    <header class="header">
+      
+    </header>
+    <div class="navbar">
+      <div class="container">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#cart" class="navbar__link">Cart</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <div class="components">
       <div class="container">
-        <div class="components__item cart">
+        <div id="cart" class="components__item cart">
           <article class="product">
             <a href="#" class="product__image">
               <div class="product__switch image-switch">
                 <div class="image-switch__item">
                   <div class="image-switch__img">
-                    <img
-                      src="../img/ovs.jpg"
-                      alt="Очиститель вороха самопередвижной"
-                    />
+                    <img src="img/ovs.jpg" alt="Очиститель вороха самопередвижной"/>
                   </div>
                 </div>
                 <div class="image-switch__item">
                   <div class="image-switch__img">
-                    <img
-                      src="../img/ovs1.jpg"
-                      alt="Очиститель вороха самопередвижной"
-                    />
+                    <img src="img/ovs1.jpg" alt="Очиститель вороха самопередвижной"/>
                   </div>
                 </div>
                 <div class="image-switch__item">
                   <div class="image-switch__img">
-                    <img
-                      src="../img/ovs2.jpg"
-                      alt="Очиститель вороха самопередвижной"
-                    />
+                    <img src="img/ovs2.jpg" alt="Очиститель вороха самопередвижной"/>
                   </div>
                 </div>
               </div>
-              <ul
-                class="product__image-pagination image-pagination"
-                aria-hidden="true"
-              ></ul>
+              <ul class="product__image-pagination image-pagination" aria-hidden="true"></ul>
             </a>
             <h3 class="product-title">
               <a href="#">Очиститель вороха самопередвижной ОВС-25</a>
@@ -377,6 +377,38 @@
                             </code>
               </pre>
             </div>
+          </div>
+        </div>
+        <div id="accordion" class="components__item">
+          <div id="accordion_first" class="accordion__item">
+            <details class="accordion">
+              <summary class="accordion__control">
+                <h3 accordion__title>Заголовок1</h3>
+                <span class="accordion__icon"></span>
+              </summary>
+              <div class="accordion__content">
+                Это просто текст, написанный для заполнения. Только для заполнения и больше ни для чего. Это не шифр, не сигнал и не послание, это просто текст.
+              </div>
+            </details>
+          </div>
+          <div id="accordion__second" class="accordion__item">
+            <ul class="accordion__list">
+              <button class="accordion__control" aria-expanded="false">
+                <span accordion__title>Заголовок2</span>
+                <span class="accordion__icon"></span>
+              </button>
+              <li class="accordion__content" aria-hidden="true">
+                Это просто текст, написанный для заполнения. Только для заполнения и больше ни для чего. Это не шифр, не сигнал и не послание, это просто текст.
+              </li>
+            </ul>
+            <ul class="accordion__list">
+              <button class="accordion__control" aria-expanded="false">
+                <span accordion__title>Заголовок2</span>
+              </button>
+              <li class="accordion__content" aria-hidden="true">
+                <p>Это просто текст, написанный для заполнения. Только для заполнения и больше ни для чего. Это не шифр, не сигнал и не послание, это просто текст.</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

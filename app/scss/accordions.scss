@@ -1,0 +1,66 @@
+.accordion__item {
+  margin: 0 auto;
+}
+#accordion_first {
+  width: 500px;
+  margin-bottom: 10px;
+  .accordion__control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #212121;
+    list-style: none;
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+  .accordion__content {
+    padding: 15px;
+    border: 1px solid #212121;
+    border-top: 1px transparent;
+  }
+}
+#accordion__second {
+  .accordion__list {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .accordion__content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    will-change: max-height;
+    transition: all 0.3s;
+    box-sizing: content-box!important;
+  }
+  .open .accordion__content {
+    opacity: 1;
+    padding: 20px;
+  }
+  .accordion__control {
+    position: relative;
+    padding-right: 30px;
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #212121;
+    cursor: pointer;
+    &::before {
+      position: absolute;
+      content: "";
+      right: 10px;
+      top: 10px;
+      width: 20px;
+      height: 20px;
+      background-image: url(/img/accordion/arrow.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      transform: rotate(180deg);
+    }
+  }
+  .open .accordion__control::before{
+    transform: rotate(0deg);
+  }
+}
